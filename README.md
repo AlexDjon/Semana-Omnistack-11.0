@@ -30,9 +30,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Expo](https://expo.io/)
 
 ## Como Rodar
-Primeiramente na raiz do projeto rode o comando <b>npm install</b> para instalar as dependências, depois disso:
-- <b>Backend:</b> Acesse a pasta /backend e rode o comando <b>npm start</b>
-- <b>Frontend:</b> Acesse a pasta /frontend e também rode o comando <b>npm start</b>
+- <b>Backend:</b> Acesse a pasta /backend e rode os comandos <b>npm install</b> e <b>npm start</b>
+- <b>Frontend:</b> Acesse a pasta /frontend e também rode os comandos <b>npm install</b> e <b>npm start</b> (com o backend já startado)
 - <b>Mobile:</b> É necessário configurar um emulador ou instalar no celular o aplicativo expo, rode o comando <b>yarn start</b> e de um scan no QR Code mostrado no terminal/navegador
 
 ## Realizar Testes
