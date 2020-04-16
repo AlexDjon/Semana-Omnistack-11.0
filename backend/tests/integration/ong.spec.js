@@ -40,7 +40,7 @@ describe('ONG', () => {
     })
   }
 
-  function logonInONG(manualOngId) {  
+  function ongLogin(manualOngId) {  
     it('shoult be able to logon in existing ONG', async () => {
       const response = await request(app)
         .post('/sessions')
@@ -71,5 +71,5 @@ describe('ONG', () => {
   ongsListen()
 
   // const manualOngId = '7f1b4c04'
-  // logonInONG(manualOngId)
+  // ongLogin(manualOngId)
 })
