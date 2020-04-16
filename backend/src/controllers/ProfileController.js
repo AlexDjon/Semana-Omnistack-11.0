@@ -8,6 +8,6 @@ module.exports = {
     .where('ong_id', ong_id)
     .select('*')
 
-    return res.json(incidents)
+    return res.status(200).json(incidents)
   }
 }

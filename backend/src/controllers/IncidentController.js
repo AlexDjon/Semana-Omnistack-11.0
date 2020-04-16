@@ -22,7 +22,7 @@ module.exports = {
         'ongs.uf'
       ])
 
-    return res.json(incidents)
+    return res.status(200).json(incidents)
   },
 
   async create(req, res) {
